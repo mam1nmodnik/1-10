@@ -1,0 +1,250 @@
+html,
+body {
+  margin: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.frame .frame-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  backdrop-filter: blur(4px) brightness(100%);
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 47.4%, rgba(160, 158, 171, 0.2) 99.99%);
+}
+
+.frame .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-color: rgba(255, 255, 255, 0.0117647059);
+  backdrop-filter: blur(15px) brightness(100%);
+  -webkit-backdrop-filter: blur(15px) brightness(100%);
+}
+
+.frame .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  padding: 50px 100px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5019607843);
+}
+
+.frame .div-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .rectangle {
+  position: relative;
+  width: 260px;
+  height: 4px;
+  background-color: #459cdb;
+  border-radius: 2px;
+}
+
+.frame .div-4 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 35px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+}
+
+.frame .text-wrapper-3 {
+  margin-top: -0.5px;
+  color: #000000;
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .frame-wrapper-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-wrapper-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 70px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #459cdb;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: -1px;
+  color: #ffffff;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding: 21px 0px;
+  position: relative;
+  background-color: #30668e;
+}
+
+
+
+input {
+  
+  display: inline-flex;
+  flex-direction: column;
+  height: 35px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  /* position: relative; */
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  outline: none;
+  border: none;
+  border-bottom: 5px solid #459cdb;
+  border-radius: 2px;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input[type=password]::-moz-placeholder {
+  color: #000000;
+}
+
+input[type=password]::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input[type=text]::-moz-placeholder {
+  color: #000000;
+}/*# sourceMappingURL=registration.css.map */
+
+.box{
+  max-height: max-content;
+  
+  position: relative;
+}
+.message {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #f75a5a;
+  position: absolute;
+  right: 13px;
+  bottom: -25px;
+  
+}

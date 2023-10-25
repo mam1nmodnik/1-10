@@ -1,0 +1,183 @@
+html,
+body {
+    margin: 0;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.frame .div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 60px;
+    flex: 1;
+    flex-grow: 1;
+    backdrop-filter: blur(15px) brightness(100%);
+    -webkit-backdrop-filter: blur(15px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 47.4%, rgba(160.25, 157.52, 171.06, 0.2) 99.99%);
+    position: relative;
+    align-self: stretch;
+}
+
+.frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #133853;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.frame .div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    padding: 10px;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+}
+
+.frame .component {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 180px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 20px;
+    border: 4px solid #459cdb;
+}
+
+.frame .ellipse {
+    position: relative;
+    width: 100.29px;
+    height: 96.73px;
+    object-fit: cover;
+}
+
+.frame .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #133853;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.frame .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #459cdb;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 133px;
+    position: relative;
+    background-color: #133853;
+}
+
+.profile-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: #459cdb;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.ooui-user-avatar {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.ooui-user-avatar-2 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.div-6 {
+    display: flex;
+    align-items: center;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.div-7 {
+    flex-direction: row;
+    display: flex;
+    gap: 6px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.div-8 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.text-wrapper-3 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #459cdb;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.text-wrapper-1 {
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.div-na-pohuy {
+    cursor: pointer;
+}

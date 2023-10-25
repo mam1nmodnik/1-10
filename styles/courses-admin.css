@@ -1,0 +1,246 @@
+html,
+body {
+  margin: 0;
+  font-family: "Inter-Medium", Helvetica;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.frame .div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;
+  padding: 150px 202px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+  backdrop-filter: blur(15px) brightness(100%);
+  -webkit-backdrop-filter: blur(15px) brightness(100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 47.4%, rgba(160, 158, 171, 0.2) 99.99%);
+}
+
+.frame .div-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 123px;
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.8509803922);
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2980392157);
+  backdrop-filter: blur(35px) brightness(100%);
+  -webkit-backdrop-filter: blur(35px) brightness(100%);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #459cdb;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .div-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 74px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame .div-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 61px;
+  position: relative;
+  flex: 0 0 auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-6 {
+  width: 433px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #459cdb;
+  font-size: 40px;
+  position: relative;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 133px;
+  position: relative;
+  background-color: #133853;
+}
+
+.profile-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  background-color: #459cdb;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.ooui-user-avatar {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+
+.div-6 {
+  display: flex;
+  align-items: center;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.div-7 {
+  flex-direction: row;
+  display: flex;
+  gap: 6px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.div-8 {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text-wrapper-3 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #459cdb;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.text-wrapper-1 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.btn-div-7 {
+  border: none;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: none;
+  cursor: pointer;
+}
+
+.frame .btn-change {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 37px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #459cdb;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  letter-spacing: 0;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-div-1 {
+  width: 32px;
+  height: 58px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=courses-admin.css.map */
